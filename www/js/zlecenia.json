@@ -1,0 +1,404 @@
+{
+  "zlecenia": [
+    {
+      "id": 1,
+      "numer_zlecenia": "TRN/2025/001",
+      "klient": "Firma ABC Sp. z o.o.",
+      "trasa": "Warszawa - Gdańsk",
+      "data_zaladunku": "2025-11-06",
+      "data_rozladunku": "2025-11-07",
+      "status": "W trakcie",
+      "wartosc": "16000 PLN",
+      "masa": "20500 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #1",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "1-1",
+          "nazwa": "Magazyn Centralny - Punkt A1",
+          "adres": "ul. Transportowa 11, Warszawa",
+          "kontakt": "+48 101201 301 401",
+          "typ": "załadunek",
+          "godzina": "9:00"
+        },
+        {
+          "id": "1-2",
+          "nazwa": "Terminal Docelowy - Punkt B1",
+          "adres": "ul. Portowa 51, Gdańsk",
+          "kontakt": "+48 501601 701 801",
+          "typ": "rozładunek",
+          "godzina": "15:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-001",
+        "numer_rejestracyjny": "WA 10100",
+        "marka": "Mercedes Actros",
+        "kierowca": "Jan Kowalski",
+        "telefon": "+48 50100 60100",
+        "prawo_jazdy": "ABC123457",
+        "ladownosc": "24100 kg"
+      }
+    },
+    {
+      "id": 2,
+      "numer_zlecenia": "TRN/2025/002",
+      "klient": "Transport Express S.A.",
+      "trasa": "Kraków - Wrocław",
+      "data_zaladunku": "2025-11-07",
+      "data_rozladunku": "2025-11-08",
+      "status": "Zaplanowane",
+      "wartosc": "17000 PLN",
+      "masa": "21000 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #2",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "2-1",
+          "nazwa": "Magazyn Centralny - Punkt A2",
+          "adres": "ul. Transportowa 12, Kraków",
+          "kontakt": "+48 102202 302 402",
+          "typ": "załadunek",
+          "godzina": "10:00"
+        },
+        {
+          "id": "2-2",
+          "nazwa": "Terminal Docelowy - Punkt B2",
+          "adres": "ul. Portowa 52, Wrocław",
+          "kontakt": "+48 502602 702 802",
+          "typ": "rozładunek",
+          "godzina": "16:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-002",
+        "numer_rejestracyjny": "WA 10200",
+        "marka": "Volvo FH16",
+        "kierowca": "Piotr Nowak",
+        "telefon": "+48 50200 60200",
+        "prawo_jazdy": "ABC123458",
+        "ladownosc": "24200 kg"
+      }
+    },
+    {
+      "id": 3,
+      "numer_zlecenia": "TRN/2025/003",
+      "klient": "Logistyka Plus Sp. j.",
+      "trasa": "Poznań - Szczecin",
+      "data_zaladunku": "2025-11-08",
+      "data_rozladunku": "2025-11-09",
+      "status": "Zakończone",
+      "wartosc": "18000 PLN",
+      "masa": "21500 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #3",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "3-1",
+          "nazwa": "Magazyn Centralny - Punkt A3",
+          "adres": "ul. Transportowa 13, Poznań",
+          "kontakt": "+48 103203 303 403",
+          "typ": "załadunek",
+          "godzina": "8:00"
+        },
+        {
+          "id": "3-2",
+          "nazwa": "Terminal Docelowy - Punkt B3",
+          "adres": "ul. Portowa 53, Szczecin",
+          "kontakt": "+48 503603 703 803",
+          "typ": "rozładunek",
+          "godzina": "17:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-003",
+        "numer_rejestracyjny": "WA 10300",
+        "marka": "Mercedes Actros",
+        "kierowca": "Andrzej Wiśniewski",
+        "telefon": "+48 50300 60300",
+        "prawo_jazdy": "ABC123459",
+        "ladownosc": "24300 kg"
+      }
+    },
+    {
+      "id": 4,
+      "numer_zlecenia": "TRN/2025/004",
+      "klient": "Euro Cargo Sp. z o.o.",
+      "trasa": "Łódź - Katowice",
+      "data_zaladunku": "2025-11-09",
+      "data_rozladunku": "2025-11-10",
+      "status": "Opóźnione",
+      "wartosc": "19000 PLN",
+      "masa": "22000 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #4",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "4-1",
+          "nazwa": "Magazyn Centralny - Punkt A4",
+          "adres": "ul. Transportowa 14, Łódź",
+          "kontakt": "+48 104204 304 404",
+          "typ": "załadunek",
+          "godzina": "9:00"
+        },
+        {
+          "id": "4-2",
+          "nazwa": "Terminal Docelowy - Punkt B4",
+          "adres": "ul. Portowa 54, Katowice",
+          "kontakt": "+48 504604 704 804",
+          "typ": "rozładunek",
+          "godzina": "14:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-004",
+        "numer_rejestracyjny": "WA 10400",
+        "marka": "Volvo FH16",
+        "kierowca": "Marek Dąbrowski",
+        "telefon": "+48 50400 60400",
+        "prawo_jazdy": "ABC123460",
+        "ladownosc": "24400 kg"
+      }
+    },
+    {
+      "id": 5,
+      "numer_zlecenia": "TRN/2025/005",
+      "klient": "Polski Transport S.A.",
+      "trasa": "Lublin - Białystok",
+      "data_zaladunku": "2025-11-10",
+      "data_rozladunku": "2025-11-11",
+      "status": "Oczekujące",
+      "wartosc": "20000 PLN",
+      "masa": "22500 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #5",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "5-1",
+          "nazwa": "Magazyn Centralny - Punkt A5",
+          "adres": "ul. Transportowa 15, Lublin",
+          "kontakt": "+48 105205 305 405",
+          "typ": "załadunek",
+          "godzina": "10:00"
+        },
+        {
+          "id": "5-2",
+          "nazwa": "Terminal Docelowy - Punkt B5",
+          "adres": "ul. Portowa 55, Białystok",
+          "kontakt": "+48 505605 705 805",
+          "typ": "rozładunek",
+          "godzina": "15:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-005",
+        "numer_rejestracyjny": "WA 10500",
+        "marka": "Mercedes Actros",
+        "kierowca": "Tomasz Lewandowski",
+        "telefon": "+48 50500 60500",
+        "prawo_jazdy": "ABC123461",
+        "ladownosc": "24500 kg"
+      }
+    },
+    {
+      "id": 6,
+      "numer_zlecenia": "TRN/2025/006",
+      "klient": "Mega Logistics Sp. z o.o.",
+      "trasa": "Rzeszów - Kielce",
+      "data_zaladunku": "2025-11-11",
+      "data_rozladunku": "2025-11-12",
+      "status": "W trakcie",
+      "wartosc": "21000 PLN",
+      "masa": "23000 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #6",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "6-1",
+          "nazwa": "Magazyn Centralny - Punkt A6",
+          "adres": "ul. Transportowa 16, Rzeszów",
+          "kontakt": "+48 106206 306 406",
+          "typ": "załadunek",
+          "godzina": "8:00"
+        },
+        {
+          "id": "6-2",
+          "nazwa": "Terminal Docelowy - Punkt B6",
+          "adres": "ul. Portowa 56, Kielce",
+          "kontakt": "+48 506606 706 806",
+          "typ": "rozładunek",
+          "godzina": "16:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-006",
+        "numer_rejestracyjny": "WA 10600",
+        "marka": "Volvo FH16",
+        "kierowca": "Krzysztof Wójcik",
+        "telefon": "+48 50600 60600",
+        "prawo_jazdy": "ABC123462",
+        "ladownosc": "24600 kg"
+      }
+    },
+    {
+      "id": 7,
+      "numer_zlecenia": "TRN/2025/007",
+      "klient": "Swift Delivery Ltd.",
+      "trasa": "Olsztyn - Toruń",
+      "data_zaladunku": "2025-11-12",
+      "data_rozladunku": "2025-11-13",
+      "status": "Zaplanowane",
+      "wartosc": "22000 PLN",
+      "masa": "23500 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #7",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "7-1",
+          "nazwa": "Magazyn Centralny - Punkt A7",
+          "adres": "ul. Transportowa 17, Olsztyn",
+          "kontakt": "+48 107207 307 407",
+          "typ": "załadunek",
+          "godzina": "9:00"
+        },
+        {
+          "id": "7-2",
+          "nazwa": "Terminal Docelowy - Punkt B7",
+          "adres": "ul. Portowa 57, Toruń",
+          "kontakt": "+48 507607 707 807",
+          "typ": "rozładunek",
+          "godzina": "17:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-007",
+        "numer_rejestracyjny": "WA 10700",
+        "marka": "Mercedes Actros",
+        "kierowca": "Jakub Kamiński",
+        "telefon": "+48 50700 60700",
+        "prawo_jazdy": "ABC123463",
+        "ladownosc": "24700 kg"
+      }
+    },
+    {
+      "id": 8,
+      "numer_zlecenia": "TRN/2025/008",
+      "klient": "Cargo Masters Sp. z o.o.",
+      "trasa": "Bydgoszcz - Zielona Góra",
+      "data_zaladunku": "2025-11-13",
+      "data_rozladunku": "2025-11-14",
+      "status": "Zakończone",
+      "wartosc": "23000 PLN",
+      "masa": "24000 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #8",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "8-1",
+          "nazwa": "Magazyn Centralny - Punkt A8",
+          "adres": "ul. Transportowa 18, Bydgoszcz",
+          "kontakt": "+48 108208 308 408",
+          "typ": "załadunek",
+          "godzina": "10:00"
+        },
+        {
+          "id": "8-2",
+          "nazwa": "Terminal Docelowy - Punkt B8",
+          "adres": "ul. Portowa 58, Zielona Góra",
+          "kontakt": "+48 508608 708 808",
+          "typ": "rozładunek",
+          "godzina": "14:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-008",
+        "numer_rejestracyjny": "WA 10800",
+        "marka": "Volvo FH16",
+        "kierowca": "Robert Zieliński",
+        "telefon": "+48 50800 60800",
+        "prawo_jazdy": "ABC123464",
+        "ladownosc": "24800 kg"
+      }
+    },
+    {
+      "id": 9,
+      "numer_zlecenia": "TRN/2025/009",
+      "klient": "Trans-Europa S.A.",
+      "trasa": "Opole - Częstochowa",
+      "data_zaladunku": "2025-11-14",
+      "data_rozladunku": "2025-11-15",
+      "status": "Opóźnione",
+      "wartosc": "24000 PLN",
+      "masa": "24500 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #9",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "9-1",
+          "nazwa": "Magazyn Centralny - Punkt A9",
+          "adres": "ul. Transportowa 19, Opole",
+          "kontakt": "+48 109209 309 409",
+          "typ": "załadunek",
+          "godzina": "8:00"
+        },
+        {
+          "id": "9-2",
+          "nazwa": "Terminal Docelowy - Punkt B9",
+          "adres": "ul. Portowa 59, Częstochowa",
+          "kontakt": "+48 509609 709 809",
+          "typ": "rozładunek",
+          "godzina": "15:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-009",
+        "numer_rejestracyjny": "WA 10900",
+        "marka": "Mercedes Actros",
+        "kierowca": "Michał Szymański",
+        "telefon": "+48 50900 60900",
+        "prawo_jazdy": "ABC123465",
+        "ladownosc": "24900 kg"
+      }
+    },
+    {
+      "id": 10,
+      "numer_zlecenia": "TRN/2025/010",
+      "klient": "Fast Shipping Sp. j.",
+      "trasa": "Gdynia - Elbląg",
+      "data_zaladunku": "2025-11-15",
+      "data_rozladunku": "2025-11-16",
+      "status": "Oczekujące",
+      "wartosc": "25000 PLN",
+      "masa": "25000 kg",
+      "uwagi": "Towar wymagający szczególnej uwagi - zlecenie #10",
+      "obraz_dokumentu": "https://picsum.photos/id/1/5000/3333",
+      "punkty_przeladunkowe": [
+        {
+          "id": "10-1",
+          "nazwa": "Magazyn Centralny - Punkt A10",
+          "adres": "ul. Transportowa 20, Gdynia",
+          "kontakt": "+48 110210 310 410",
+          "typ": "załadunek",
+          "godzina": "9:00"
+        },
+        {
+          "id": "10-2",
+          "nazwa": "Terminal Docelowy - Punkt B10",
+          "adres": "ul. Portowa 60, Elbląg",
+          "kontakt": "+48 510610 710 810",
+          "typ": "rozładunek",
+          "godzina": "16:00"
+        }
+      ],
+      "dane_pojazdu": {
+        "id": "VEH-010",
+        "numer_rejestracyjny": "WA 11000",
+        "marka": "Volvo FH16",
+        "kierowca": "Paweł Woźniak",
+        "telefon": "+48 51000 61000",
+        "prawo_jazdy": "ABC123466",
+        "ladownosc": "25000 kg"
+      }
+    }
+  ]
+}
