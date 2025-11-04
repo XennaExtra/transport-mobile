@@ -104,6 +104,7 @@ function wyswietlListeZlecen() {
             <ons-list-item tappable onclick="pokazSzczegoly(${index})">
                 <div class="center">
                     <span class="list-item__title">${zlecenie.numer_zlecenia}</span>
+                    \n
                     <span class="list-item__subtitle">${zlecenie.klient} - ${zlecenie.trasa}</span>
                 </div>
                 <div class="right">
@@ -191,6 +192,7 @@ function pokazDanePojazdu(index) {
             <ons-card>
                 <div class="title">Informacje o pojeździe</div>
                 <div class="content">
+                    <p><strong>Marka ciągnika:</strong> ${pojazd.marka}</p>
                     <p><strong>Nr rejestracyjny:</strong> ${pojazd.numer_rejestracyjny}</p>
                     <p><strong>Kierowca:</strong> ${pojazd.kierowca}</p>
                     <p><strong>Telefon:</strong> ${pojazd.telefon}</p>
